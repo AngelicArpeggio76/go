@@ -1,0 +1,7 @@
+orders = {
+ 'al': 50,
+ 'nur': 14,
+ 're': 10,
+    'co': 20
+}
+sorted_dic= sorted(orders.items(), key=lambda x: x[1])
